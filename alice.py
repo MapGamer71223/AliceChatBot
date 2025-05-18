@@ -23,8 +23,6 @@ from PyQt5.QtGui import (
 )
 # ---- Memory Manager with SQLite ----
 
-import sqlite3
-import time
 class MemoryManager:
     triggers = {
         "name": "personal",
